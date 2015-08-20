@@ -1,5 +1,5 @@
 var h = require("virtual-dom/h");
-var Inga = require("../js/inga");
+var Inga = require("inga");
 
 document.addEventListener("DOMContentLoaded", function(event){
   Inga.define({

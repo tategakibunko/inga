@@ -28,7 +28,7 @@ Inga.define({
 
 ## Using plugin
 
-You can combine some interesting stuff to status by adding `plugins` to data source.
+You can combine some interesting stuff to state by adding `plugins` to data source.
 
 ```javascript
 var Inga = require("inga");
