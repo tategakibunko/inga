@@ -4,8 +4,8 @@ Define hash locaiton stream.
 
 ## Dependencies
 
-[jquery](http://jquery.com)
-[jquery-hashchange-plugin](http://benalman.com/projects/jquery-hashchange-plugin/)
+- [jquery](http://jquery.com)
+- [jquery-hashchange-plugin](http://benalman.com/projects/jquery-hashchange-plugin/)
 
 jquery-hashchange-plugin is required to handle hashchange events in IE.
 
