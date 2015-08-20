@@ -3,7 +3,7 @@ var EventEmitter = require("events").EventEmitter;
 
 module.exports = (function(){
   var __emitter = new EventEmitter(); // protected emitter
-  var __plugins = {}; // streams inserted by plugins
+  var __plugins = {};
 
   function ActionStateStream(args){
     var initial_state = args.initialState || {};
