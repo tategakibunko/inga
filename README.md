@@ -19,7 +19,7 @@ Inga.define({
       "ev-click":function(ev){
         ctx.action.emitUpdater(function(state){
           state.clickCount++;
-	});
+        });
       }
     }, ctx.state.clickCount);
   }
@@ -105,7 +105,7 @@ Inga.define({
       action:function(initial_state, $upstream){
         $upstream.subscribe(function(state){
 	  console.log("current state:", state);
-	});
+        });
       }
     }
   }),
@@ -114,7 +114,7 @@ Inga.define({
       "ev-click":function(ev){
         ctx.action.emitUpdater(function(state){
           state.clickCount++;
-	});
+        });
       }
     }, ctx.state.clickCount);
   }
