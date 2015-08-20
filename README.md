@@ -104,7 +104,7 @@ Inga.define({
       // add subscriber for debug.
       action:function(initial_state, $upstream){
         $upstream.subscribe(function(state){
-	  console.log("current state:", state);
+          console.log("current state:", state);
         });
       }
     }
