@@ -7,8 +7,6 @@
  [output data]
    {target:<DOMNode>, tag_name:<String>}
 */
-var _ = require("lodash");
-
 module.exports = (function(){
   var __stream$, __gate;
   var __back_space = 8;
@@ -21,13 +19,21 @@ module.exports = (function(){
       return x === value;
     };
   };
-  
+
+  // when jp IME active
+  //
+  // [input]      a  | Enter | Enter
+  // [output]     あ |       |
+  // [downkey]   229 | 229   | 13
+  // [upkey]      65 |  13   | 13
+  // ---------------------------------
+  // [splitter?]   f |   f   |  t
   var __is_tag_splitter = function(down_key, up_key){
-    if(!_.find([__enter, __colon, __space], __eq(down_key))){
+    if(down_key !== __enter && down_key !== __colon && down_key !== __space){
       return false;
     }
     // is down_key(ENTER or SPACE) is pushed for IME translation?
-    if(!_.find([__enter, __space], __eq(down_key)) && down_key !== up_key){
+    if(down_key !== __enter && down_key !== __space && down_key !== up_key){
       return false;
     }
     return true;

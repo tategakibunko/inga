@@ -1,6 +1,6 @@
 {
   "name": "inga",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "light and extensible reactive application framework using RxJS and virtual-dom",
   "main": "index.js",
   "directories": {
