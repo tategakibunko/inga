@@ -1,0 +1,33 @@
+{
+  "name": "inga",
+  "version": "0.0.1",
+  "description": "light and extensible reactive application framework using RxJS and virtual-dom",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tategakibunko/inga.git"
+  },
+  "keywords": [
+    "rxjs",
+    "virtual-dom",
+    "reactive"
+  ],
+  "author": "Watanabe Masaki <lambda.watanabe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tategakibunko/inga/issues"
+  },
+  "homepage": "https://github.com/tategakibunko/inga#readme",
+  "dependencies": {
+    "rx":"^2.5.3",
+    "events":"^1.0.2",
+    "dom-delegator":"^13.1.0",
+    "virtual-dom":"^2.1.0"
+  }
+}
