@@ -56,7 +56,7 @@ About other plugin, see plugins directory.
 
 ## Combine your own source
 
-`Gate` class has it's own default stream, but implementing `combine` action, you can extend it with your own source.
+`ActionStateStream` has it's own default stream, but implementing `combine` action, you can extend it with your own source.
 
 ```javascript
 var Rx = require("rx");
