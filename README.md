@@ -4,6 +4,12 @@
 
 Inga is light and extensible reactive application framework using [RxJS](https://github.com/Reactive-Extensions/RxJS) and [virtual-dom](https://github.com/Matt-Esch/virtual-dom).
 
+## Install
+
+```
+npm install inga
+```
+
 ## Simple Example
 
 ```javascript
