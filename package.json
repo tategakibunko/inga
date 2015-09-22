@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/tategakibunko/inga#readme",
   "dependencies": {
-    "rx":"^2.5.3",
+    "rx":"*",
     "events":"^1.0.2",
     "dom-delegator":"^13.1.0",
     "virtual-dom":"^2.1.0"
